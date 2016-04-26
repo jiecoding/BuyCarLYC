@@ -6,17 +6,20 @@
 //  Copyright © 2016年 LYC. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LYCViewController.h"
 
-@interface ViewController ()
+@interface LYCViewController ()
 
 @end
 
-@implementation ViewController
+@implementation LYCViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+//    self.view.backgroundColor = [UIColor orangeColor];
+
 }
 
 - (void)didReceiveMemoryWarning {
