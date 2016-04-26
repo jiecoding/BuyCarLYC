@@ -22,34 +22,55 @@
     
     bgView.frame = frame;
     
-    bgView.backgroundColor = [UIColor orangeColor];
+    bgView.backgroundColor = [UIColor colorWithRed:40/255.0f green:40/255.0f blue:40/255.0f alpha:1];
     
     [self.view addSubview:bgView];
     
-    for(int i = 0 ; i < 5; i ++)
+    for(int i = 0 ; i < 3; i ++)
     {
         UIButton *btn  = [UIButton buttonWithType:UIButtonTypeCustom];
       
-        [btn addTarget:self action:@selector(tabTest) forControlEvents:UIControlEventTouchUpInside];
+        [btn addTarget:self action:@selector(clickBtn:) forControlEvents:UIControlEventTouchUpInside];
         
-        NSString *imageName = [NSString stringWithFormat:@"tabbar1"];
-     
+        NSString *imageName = [NSString stringWithFormat:@"TabBar%d", i + 1];
+        NSString *imageNameSel = [NSString stringWithFormat:@"TabBar%dSel", i + 1];
+        
         [btn setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
      
-        [btn setImage:[UIImage imageNamed:imageName] forState:UIControlStateSelected];
+        [btn setImage:[UIImage imageNamed:imageNameSel] forState:UIControlStateSelected];
     
+        CGFloat x = i * bgView.frame.size.width / 3;
+        btn.frame = CGRectMake(x, 0, bgView.frame.size.width / 3, bgView.frame.size.height);
         
         [bgView addSubview:btn];
+        
+        //设置刚进入时,第一个按钮为选中状态
+        if (0 == i) {
+            btn.selected = YES;
+            self.selectedBtn = btn;  //设置该按钮为选中的按钮
+        }
+        
     }
-//    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"tabbar1"]];
-//    imageView.frame = CGRectMake(0, 0, 50, 50);
-//    [bgView addSubview:imageView];
+  
+    
+    
     
 }
 
-- (void)tabTest
-{
-    NSLog(@"sfdfasfdsafds");
+/**
+ *  自定义TabBar的按钮点击事件
+ */
+- (void)clickBtn:(UIButton *)button {
+    //1.先将之前选中的按钮设置为未选中
+    self.selectedBtn.selected = NO;
+    //2.再将当前按钮设置为选中
+    button.selected = YES;
+    //3.最后把当前按钮赋值为之前选中的按钮
+    self.selectedBtn = button;
+    
+    //4.跳转到相应的视图控制器. (通过selectIndex参数来设置选中了那个控制器)
+    self.selectedIndex = button.tag;
 }
+
 
 @end
