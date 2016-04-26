@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBC646251CCF5B9400EA68D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC646241CCF5B9400EA68D5 /* main.m */; };
+		CBC646281CCF5B9400EA68D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC646271CCF5B9400EA68D5 /* AppDelegate.m */; };
+		CBC6462B1CCF5B9400EA68D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC6462A1CCF5B9400EA68D5 /* ViewController.m */; };
+		CBC6462E1CCF5B9400EA68D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC6462C1CCF5B9400EA68D5 /* Main.storyboard */; };
+		CBC646301CCF5B9400EA68D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC6462F1CCF5B9400EA68D5 /* Assets.xcassets */; };
+		CBC646331CCF5B9400EA68D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC646311CCF5B9400EA68D5 /* LaunchScreen.storyboard */; };
+		CBC6463E1CCF5B9400EA68D5 /* BuyCarLYCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC6463D1CCF5B9400EA68D5 /* BuyCarLYCTests.m */; };
+		CBC646491CCF5B9400EA68D5 /* BuyCarLYCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC646481CCF5B9400EA68D5 /* BuyCarLYCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBC6463A1CCF5B9400EA68D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBC646181CCF5B9400EA68D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBC6461F1CCF5B9400EA68D5;
+			remoteInfo = BuyCarLYC;
+		};
+		CBC646451CCF5B9400EA68D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBC646181CCF5B9400EA68D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBC6461F1CCF5B9400EA68D5;
+			remoteInfo = BuyCarLYC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBC646201CCF5B9400EA68D5 /* BuyCarLYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuyCarLYC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC646241CCF5B9400EA68D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBC646261CCF5B9400EA68D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBC646271CCF5B9400EA68D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBC646291CCF5B9400EA68D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBC6462A1CCF5B9400EA68D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBC6462D1CCF5B9400EA68D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBC6462F1CCF5B9400EA68D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBC646321CCF5B9400EA68D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBC646341CCF5B9400EA68D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC646391CCF5B9400EA68D5 /* BuyCarLYCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuyCarLYCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC6463D1CCF5B9400EA68D5 /* BuyCarLYCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyCarLYCTests.m; sourceTree = "<group>"; };
+		CBC6463F1CCF5B9400EA68D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC646441CCF5B9400EA68D5 /* BuyCarLYCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuyCarLYCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC646481CCF5B9400EA68D5 /* BuyCarLYCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyCarLYCUITests.m; sourceTree = "<group>"; };
+		CBC6464A1CCF5B9400EA68D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBC6461D1CCF5B9400EA68D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC646361CCF5B9400EA68D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC646411CCF5B9400EA68D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBC646171CCF5B9400EA68D5 = {
+			isa = PBXGroup;
+			children = (
+				CBC646221CCF5B9400EA68D5 /* BuyCarLYC */,
+				CBC6463C1CCF5B9400EA68D5 /* BuyCarLYCTests */,
+				CBC646471CCF5B9400EA68D5 /* BuyCarLYCUITests */,
+				CBC646211CCF5B9400EA68D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBC646211CCF5B9400EA68D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBC646201CCF5B9400EA68D5 /* BuyCarLYC.app */,
+				CBC646391CCF5B9400EA68D5 /* BuyCarLYCTests.xctest */,
+				CBC646441CCF5B9400EA68D5 /* BuyCarLYCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBC646221CCF5B9400EA68D5 /* BuyCarLYC */ = {
+			isa = PBXGroup;
+			children = (
+				CBC646261CCF5B9400EA68D5 /* AppDelegate.h */,
+				CBC646271CCF5B9400EA68D5 /* AppDelegate.m */,
+				CBC646291CCF5B9400EA68D5 /* ViewController.h */,
+				CBC6462A1CCF5B9400EA68D5 /* ViewController.m */,
+				CBC6462C1CCF5B9400EA68D5 /* Main.storyboard */,
+				CBC6462F1CCF5B9400EA68D5 /* Assets.xcassets */,
+				CBC646311CCF5B9400EA68D5 /* LaunchScreen.storyboard */,
+				CBC646341CCF5B9400EA68D5 /* Info.plist */,
+				CBC646231CCF5B9400EA68D5 /* Supporting Files */,
+			);
+			path = BuyCarLYC;
+			sourceTree = "<group>";
+		};
+		CBC646231CCF5B9400EA68D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBC646241CCF5B9400EA68D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBC6463C1CCF5B9400EA68D5 /* BuyCarLYCTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBC6463D1CCF5B9400EA68D5 /* BuyCarLYCTests.m */,
+				CBC6463F1CCF5B9400EA68D5 /* Info.plist */,
+			);
+			path = BuyCarLYCTests;
+			sourceTree = "<group>";
+		};
+		CBC646471CCF5B9400EA68D5 /* BuyCarLYCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBC646481CCF5B9400EA68D5 /* BuyCarLYCUITests.m */,
+				CBC6464A1CCF5B9400EA68D5 /* Info.plist */,
+			);
+			path = BuyCarLYCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBC6461F1CCF5B9400EA68D5 /* BuyCarLYC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC6464D1CCF5B9400EA68D5 /* Build configuration list for PBXNativeTarget "BuyCarLYC" */;
+			buildPhases = (
+				CBC6461C1CCF5B9400EA68D5 /* Sources */,
+				CBC6461D1CCF5B9400EA68D5 /* Frameworks */,
+				CBC6461E1CCF5B9400EA68D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuyCarLYC;
+			productName = BuyCarLYC;
+			productReference = CBC646201CCF5B9400EA68D5 /* BuyCarLYC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBC646381CCF5B9400EA68D5 /* BuyCarLYCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC646501CCF5B9400EA68D5 /* Build configuration list for PBXNativeTarget "BuyCarLYCTests" */;
+			buildPhases = (
+				CBC646351CCF5B9400EA68D5 /* Sources */,
+				CBC646361CCF5B9400EA68D5 /* Frameworks */,
+				CBC646371CCF5B9400EA68D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBC6463B1CCF5B9400EA68D5 /* PBXTargetDependency */,
+			);
+			name = BuyCarLYCTests;
+			productName = BuyCarLYCTests;
+			productReference = CBC646391CCF5B9400EA68D5 /* BuyCarLYCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBC646431CCF5B9400EA68D5 /* BuyCarLYCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC646531CCF5B9400EA68D5 /* Build configuration list for PBXNativeTarget "BuyCarLYCUITests" */;
+			buildPhases = (
+				CBC646401CCF5B9400EA68D5 /* Sources */,
+				CBC646411CCF5B9400EA68D5 /* Frameworks */,
+				CBC646421CCF5B9400EA68D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBC646461CCF5B9400EA68D5 /* PBXTargetDependency */,
+			);
+			name = BuyCarLYCUITests;
+			productName = BuyCarLYCUITests;
+			productReference = CBC646441CCF5B9400EA68D5 /* BuyCarLYCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBC646181CCF5B9400EA68D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LYC;
+				TargetAttributes = {
+					CBC6461F1CCF5B9400EA68D5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CBC646381CCF5B9400EA68D5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CBC6461F1CCF5B9400EA68D5;
+					};
+					CBC646431CCF5B9400EA68D5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CBC6461F1CCF5B9400EA68D5;
+					};
+				};
+			};
+			buildConfigurationList = CBC6461B1CCF5B9400EA68D5 /* Build configuration list for PBXProject "BuyCarLYC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBC646171CCF5B9400EA68D5;
+			productRefGroup = CBC646211CCF5B9400EA68D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBC6461F1CCF5B9400EA68D5 /* BuyCarLYC */,
+				CBC646381CCF5B9400EA68D5 /* BuyCarLYCTests */,
+				CBC646431CCF5B9400EA68D5 /* BuyCarLYCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBC6461E1CCF5B9400EA68D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC646331CCF5B9400EA68D5 /* LaunchScreen.storyboard in Resources */,
+				CBC646301CCF5B9400EA68D5 /* Assets.xcassets in Resources */,
+				CBC6462E1CCF5B9400EA68D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC646371CCF5B9400EA68D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC646421CCF5B9400EA68D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBC6461C1CCF5B9400EA68D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC6462B1CCF5B9400EA68D5 /* ViewController.m in Sources */,
+				CBC646281CCF5B9400EA68D5 /* AppDelegate.m in Sources */,
+				CBC646251CCF5B9400EA68D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC646351CCF5B9400EA68D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC6463E1CCF5B9400EA68D5 /* BuyCarLYCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC646401CCF5B9400EA68D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC646491CCF5B9400EA68D5 /* BuyCarLYCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBC6463B1CCF5B9400EA68D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBC6461F1CCF5B9400EA68D5 /* BuyCarLYC */;
+			targetProxy = CBC6463A1CCF5B9400EA68D5 /* PBXContainerItemProxy */;
+		};
+		CBC646461CCF5B9400EA68D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBC6461F1CCF5B9400EA68D5 /* BuyCarLYC */;
+			targetProxy = CBC646451CCF5B9400EA68D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBC6462C1CCF5B9400EA68D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBC6462D1CCF5B9400EA68D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBC646311CCF5B9400EA68D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBC646321CCF5B9400EA68D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBC6464B1CCF5B9400EA68D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBC6464C1CCF5B9400EA68D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBC6464E1CCF5B9400EA68D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuyCarLYC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mingren.BuyCarLYC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBC6464F1CCF5B9400EA68D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuyCarLYC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mingren.BuyCarLYC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBC646511CCF5B9400EA68D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BuyCarLYCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mingren.BuyCarLYCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuyCarLYC.app/BuyCarLYC";
+			};
+			name = Debug;
+		};
+		CBC646521CCF5B9400EA68D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BuyCarLYCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mingren.BuyCarLYCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuyCarLYC.app/BuyCarLYC";
+			};
+			name = Release;
+		};
+		CBC646541CCF5B9400EA68D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BuyCarLYCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mingren.BuyCarLYCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BuyCarLYC;
+			};
+			name = Debug;
+		};
+		CBC646551CCF5B9400EA68D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BuyCarLYCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mingren.BuyCarLYCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BuyCarLYC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBC6461B1CCF5B9400EA68D5 /* Build configuration list for PBXProject "BuyCarLYC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC6464B1CCF5B9400EA68D5 /* Debug */,
+				CBC6464C1CCF5B9400EA68D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC6464D1CCF5B9400EA68D5 /* Build configuration list for PBXNativeTarget "BuyCarLYC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC6464E1CCF5B9400EA68D5 /* Debug */,
+				CBC6464F1CCF5B9400EA68D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBC646501CCF5B9400EA68D5 /* Build configuration list for PBXNativeTarget "BuyCarLYCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC646511CCF5B9400EA68D5 /* Debug */,
+				CBC646521CCF5B9400EA68D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBC646531CCF5B9400EA68D5 /* Build configuration list for PBXNativeTarget "BuyCarLYCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC646541CCF5B9400EA68D5 /* Debug */,
+				CBC646551CCF5B9400EA68D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBC646181CCF5B9400EA68D5 /* Project object */;
+}
