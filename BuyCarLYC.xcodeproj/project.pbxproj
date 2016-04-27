@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB84660E1CD08D330009D8D3 /* WJSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CB84660D1CD08D330009D8D3 /* WJSlideMenu.m */; };
+		CB8466111CD0916B0009D8D3 /* LYCLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8466101CD0916B0009D8D3 /* LYCLeftViewController.m */; };
 		CBC646251CCF5B9400EA68D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC646241CCF5B9400EA68D5 /* main.m */; };
 		CBC646281CCF5B9400EA68D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC646271CCF5B9400EA68D5 /* AppDelegate.m */; };
 		CBC6462B1CCF5B9400EA68D5 /* LYCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC6462A1CCF5B9400EA68D5 /* LYCViewController.m */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB84660C1CD08D330009D8D3 /* WJSlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSlideMenu.h; sourceTree = "<group>"; };
+		CB84660D1CD08D330009D8D3 /* WJSlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSlideMenu.m; sourceTree = "<group>"; };
+		CB84660F1CD0916B0009D8D3 /* LYCLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCLeftViewController.h; sourceTree = "<group>"; };
+		CB8466101CD0916B0009D8D3 /* LYCLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCLeftViewController.m; sourceTree = "<group>"; };
 		CBC646201CCF5B9400EA68D5 /* BuyCarLYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuyCarLYC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC646241CCF5B9400EA68D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBC646261CCF5B9400EA68D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,10 +112,14 @@
 			children = (
 				CBC646261CCF5B9400EA68D5 /* AppDelegate.h */,
 				CBC646271CCF5B9400EA68D5 /* AppDelegate.m */,
+				CB84660C1CD08D330009D8D3 /* WJSlideMenu.h */,
+				CB84660D1CD08D330009D8D3 /* WJSlideMenu.m */,
 				CBC646291CCF5B9400EA68D5 /* LYCViewController.h */,
 				CBC6462A1CCF5B9400EA68D5 /* LYCViewController.m */,
 				CBC646561CCF5E1500EA68D5 /* LYCTabBarController.h */,
 				CBC646571CCF5E1500EA68D5 /* LYCTabBarController.m */,
+				CB84660F1CD0916B0009D8D3 /* LYCLeftViewController.h */,
+				CB8466101CD0916B0009D8D3 /* LYCLeftViewController.m */,
 				CBC6462C1CCF5B9400EA68D5 /* Main.storyboard */,
 				CBC6462F1CCF5B9400EA68D5 /* Assets.xcassets */,
 				CBC646311CCF5B9400EA68D5 /* LaunchScreen.storyboard */,
@@ -277,9 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB84660E1CD08D330009D8D3 /* WJSlideMenu.m in Sources */,
 				CBC646581CCF5E1500EA68D5 /* LYCTabBarController.m in Sources */,
 				CBC6462B1CCF5B9400EA68D5 /* LYCViewController.m in Sources */,
 				CBC646281CCF5B9400EA68D5 /* AppDelegate.m in Sources */,
+				CB8466111CD0916B0009D8D3 /* LYCLeftViewController.m in Sources */,
 				CBC646251CCF5B9400EA68D5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

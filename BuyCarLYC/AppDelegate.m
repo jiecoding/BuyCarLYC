@@ -26,7 +26,7 @@
     
     LYCTabBarController *tabbarController = [[LYCTabBarController alloc] init];
     
-    tabbarController.viewControllers  =viewControllers;
+    tabbarController.viewControllers  = viewControllers;
     
     self.window.rootViewController = tabbarController;
     
