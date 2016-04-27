@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CB8466111CD0916B0009D8D3 /* LYCLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8466101CD0916B0009D8D3 /* LYCLeftViewController.m */; };
+		CBAAC58B1CD0C0AB0079D6C6 /* SLideZoomMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAAC5891CD0C0AB0079D6C6 /* SLideZoomMenuController.m */; };
+		CBAAC58C1CD0C0AB0079D6C6 /* SLideZoomMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBAAC58A1CD0C0AB0079D6C6 /* SLideZoomMenuController.xib */; };
 		CBC646251CCF5B9400EA68D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC646241CCF5B9400EA68D5 /* main.m */; };
 		CBC646281CCF5B9400EA68D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC646271CCF5B9400EA68D5 /* AppDelegate.m */; };
 		CBC6462B1CCF5B9400EA68D5 /* LYCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC6462A1CCF5B9400EA68D5 /* LYCViewController.m */; };
@@ -17,8 +19,6 @@
 		CBC6463E1CCF5B9400EA68D5 /* BuyCarLYCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC6463D1CCF5B9400EA68D5 /* BuyCarLYCTests.m */; };
 		CBC646491CCF5B9400EA68D5 /* BuyCarLYCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC646481CCF5B9400EA68D5 /* BuyCarLYCUITests.m */; };
 		CBC646581CCF5E1500EA68D5 /* LYCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC646571CCF5E1500EA68D5 /* LYCTabBarController.m */; };
-		CBEA39C11CD0A96900373C4C /* SLideZoomMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEA39BF1CD0A96900373C4C /* SLideZoomMenuController.m */; };
-		CBEA39C21CD0A96900373C4C /* SLideZoomMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBEA39C01CD0A96900373C4C /* SLideZoomMenuController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,9 @@
 /* Begin PBXFileReference section */
 		CB84660F1CD0916B0009D8D3 /* LYCLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCLeftViewController.h; sourceTree = "<group>"; };
 		CB8466101CD0916B0009D8D3 /* LYCLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCLeftViewController.m; sourceTree = "<group>"; };
+		CBAAC5881CD0C0AB0079D6C6 /* SLideZoomMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLideZoomMenuController.h; sourceTree = "<group>"; };
+		CBAAC5891CD0C0AB0079D6C6 /* SLideZoomMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLideZoomMenuController.m; sourceTree = "<group>"; };
+		CBAAC58A1CD0C0AB0079D6C6 /* SLideZoomMenuController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLideZoomMenuController.xib; sourceTree = "<group>"; };
 		CBC646201CCF5B9400EA68D5 /* BuyCarLYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuyCarLYC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC646241CCF5B9400EA68D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBC646261CCF5B9400EA68D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,9 +62,6 @@
 		CBC6464A1CCF5B9400EA68D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBC646561CCF5E1500EA68D5 /* LYCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCTabBarController.h; sourceTree = "<group>"; };
 		CBC646571CCF5E1500EA68D5 /* LYCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCTabBarController.m; sourceTree = "<group>"; };
-		CBEA39BE1CD0A96900373C4C /* SLideZoomMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLideZoomMenuController.h; sourceTree = "<group>"; };
-		CBEA39BF1CD0A96900373C4C /* SLideZoomMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLideZoomMenuController.m; sourceTree = "<group>"; };
-		CBEA39C01CD0A96900373C4C /* SLideZoomMenuController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLideZoomMenuController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +114,9 @@
 			children = (
 				CBC646261CCF5B9400EA68D5 /* AppDelegate.h */,
 				CBC646271CCF5B9400EA68D5 /* AppDelegate.m */,
-				CBEA39BE1CD0A96900373C4C /* SLideZoomMenuController.h */,
-				CBEA39BF1CD0A96900373C4C /* SLideZoomMenuController.m */,
-				CBEA39C01CD0A96900373C4C /* SLideZoomMenuController.xib */,
+				CBAAC5881CD0C0AB0079D6C6 /* SLideZoomMenuController.h */,
+				CBAAC5891CD0C0AB0079D6C6 /* SLideZoomMenuController.m */,
+				CBAAC58A1CD0C0AB0079D6C6 /* SLideZoomMenuController.xib */,
 				CBC646291CCF5B9400EA68D5 /* LYCViewController.h */,
 				CBC6462A1CCF5B9400EA68D5 /* LYCViewController.m */,
 				CBC646561CCF5E1500EA68D5 /* LYCTabBarController.h */,
@@ -266,7 +266,7 @@
 				CBC646331CCF5B9400EA68D5 /* LaunchScreen.storyboard in Resources */,
 				CBC646301CCF5B9400EA68D5 /* Assets.xcassets in Resources */,
 				CBC6462E1CCF5B9400EA68D5 /* Main.storyboard in Resources */,
-				CBEA39C21CD0A96900373C4C /* SLideZoomMenuController.xib in Resources */,
+				CBAAC58C1CD0C0AB0079D6C6 /* SLideZoomMenuController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBC646581CCF5E1500EA68D5 /* LYCTabBarController.m in Sources */,
-				CBEA39C11CD0A96900373C4C /* SLideZoomMenuController.m in Sources */,
+				CBAAC58B1CD0C0AB0079D6C6 /* SLideZoomMenuController.m in Sources */,
 				CBC6462B1CCF5B9400EA68D5 /* LYCViewController.m in Sources */,
 				CBC646281CCF5B9400EA68D5 /* AppDelegate.m in Sources */,
 				CB8466111CD0916B0009D8D3 /* LYCLeftViewController.m in Sources */,

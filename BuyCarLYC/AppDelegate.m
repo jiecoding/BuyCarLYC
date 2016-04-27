@@ -41,7 +41,7 @@
     
     SLideZoomMenuController *slideZoomMenu = [[SLideZoomMenuController alloc] initWithRootController:mainTabVCNavigation];
 //
-//    slideZoomMenu.leftViewController = leftVC;
+    slideZoomMenu.leftViewController = leftVC;
     
 //    self.slider = slideZoomMenu;
     

@@ -39,9 +39,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
-    self.view.backgroundColor = [UIColor orangeColor];
-    
+    self.view.backgroundColor = [UIColor redColor];
  }
 
 - (void)setupRoot
@@ -79,13 +77,15 @@
     self.rightPan = pan;
     
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
-    [self.rootViewController.view addGestureRecognizer:tap];
+//    [self.rootViewController.view addGestureRecognizer:tap];
     self.tap = tap;
     tap.enabled = NO;
     
     UIPanGestureRecognizer *leftPan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleLeftPan:)];
+    
     leftPan.delegate = (id <UIGestureRecognizerDelegate>)self;
-    [self.rootViewController.view addGestureRecognizer:leftPan];
+    
+//    [self.rootViewController.view addGestureRecognizer:leftPan];
     self.leftPan = leftPan;
     self.leftPan.enabled = NO;
     if (self.isShow) {
@@ -148,7 +148,6 @@
             CGRect rootRect = self.rootViewController.view.frame;
             rootRect.origin.x = [UIScreen mainScreen].bounds.size.width- 60 - offsetX;
             self.rootViewController.view.frame = rootRect;
-            //需要斜度可以开启这个属性
 //            self.rootViewController.view.transform = CGAffineTransformMakeScale(0.7+ rootZoom, 0.7 +rootZoom);
             CGRect leftRect = self.leftViewController.view.frame;
             leftRect.origin.x = -leftOffsetX;
@@ -235,16 +234,17 @@
 
 - (void)handlePan:(UIPanGestureRecognizer *)pan
 {
-    if(self.startPoint.x >35)
-    {
-        return;
-    }
+    //设置滑动起始点
+//    if(self.startPoint.x >35)
+//    {
+//        return;
+//    }
     CGPoint locationPoint = [pan locationInView:self.view];
 //     XBLog(@"handlePan slider拖动了,loca.x%f",locationPoint.x);
     CGFloat offsetX = locationPoint.x - self.startPoint.x;
     
     if (pan.state == UIGestureRecognizerStateChanged) {
-        if (locationPoint.x -self.startPoint.x >=6) {
+        if (locationPoint.x - self.startPoint.x >=6) {
             CGFloat leftOffsetX = offsetX * 60/(self.view.bounds.size.width - 60);
             CGFloat rootZoom = offsetX/(self.view.bounds.size.width - 60) * 0.5;
             CGRect rootRect = self.rootViewController.view.frame;
@@ -252,7 +252,7 @@
             self.rootViewController.view.frame = rootRect;
 //            self.rootViewController.view.transform = CGAffineTransformMakeScale(1.2-rootZoom, 1.2-rootZoom);
             CGRect leftRect = self.leftViewController.view.frame;
-            leftRect.origin.x = leftOffsetX - 60;
+            leftRect.origin.x = self.view.frame.size.width/2;
             leftRect.size.width = self.view.bounds.size.width/2 + leftOffsetX *self.view.bounds.size.width/2/60;
             self.leftViewController.view.frame = leftRect;
 //            self.leftViewController.view.transform = CGAffineTransformMakeScale(0.5 +rootZoom , 0.5 +rootZoom);
@@ -260,15 +260,20 @@
         }
         else
         {
+            NSLog(@"else");
             return;
         }
     
-        if (offsetX >= (self.view.bounds.size.width - 60)) {
+        if (offsetX >= (self.view.bounds.size.width /2)) {
             pan.enabled = NO;
         }
     }
     else if (pan.state == UIGestureRecognizerStateEnded || pan.state == UIGestureRecognizerStateCancelled)
     {
+        if (offsetX >= (self.view.bounds.size.width /2)) {
+            pan.enabled = NO;
+            return;
+        }
         if (offsetX >= [UIScreen mainScreen].bounds.size.width/2) {
             CGRect rect = self.rootViewController.view.frame;
             rect.origin.x = [UIScreen mainScreen].bounds.size.width - 80;
@@ -295,6 +300,7 @@
             
 
         }
+//    } 
         else
         {
             CGRect rect = self.rootViewController.view.frame;
@@ -320,7 +326,7 @@
 
         }
     }
-    
+    NSLog(@"handlePan");
     
 }
 
