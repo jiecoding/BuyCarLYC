@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "LYCTabBarController.h"
 #import "LYCViewController.h"
+#import "SLideZoomMenuController.h"
+#import "LYCLeftViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,8 +20,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    LYCLeftViewController *leftVC = [[LYCLeftViewController alloc] init];
     
     // Override point for customization after application launch.
+  
     LYCViewController *lycViewController = [[LYCViewController alloc] init];
     
     NSArray *viewControllers = @[lycViewController];
@@ -28,7 +32,22 @@
     
     tabbarController.viewControllers  = viewControllers;
     
-    self.window.rootViewController = tabbarController;
+    self.window.backgroundColor = [UIColor cyanColor];
+   
+    
+    UINavigationController *mainTabVCNavigation = [[UINavigationController alloc]initWithRootViewController:tabbarController];
+    
+    [mainTabVCNavigation setNavigationBarHidden:YES];
+    
+    SLideZoomMenuController *slideZoomMenu = [[SLideZoomMenuController alloc] initWithRootController:mainTabVCNavigation];
+//
+//    slideZoomMenu.leftViewController = leftVC;
+    
+//    self.slider = slideZoomMenu;
+    
+    self.window.rootViewController = slideZoomMenu;
+
+    
     
     return YES;
 }

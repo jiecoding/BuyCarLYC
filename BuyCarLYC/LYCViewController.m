@@ -7,12 +7,10 @@
 //
 
 #import "LYCViewController.h"
-#import "WJSlideMenu.h"
 #import "LYCLeftViewController.h"
 
 
 @interface LYCViewController ()
-@property (nonatomic,weak)WJSlideMenu *menu;
 
 @end
 
@@ -24,22 +22,8 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    // 创建slideMenu
-    CGRect frame = self.view.bounds;
-    WJSlideMenu *menu = [[WJSlideMenu alloc]initWithFrame:frame];
-    menu.backgroundColor = [UIColor redColor];
-    [menu addSwipeGesture];// 添加左右滑动手势
-    [self.view addSubview:menu];
-  
-    self.menu = menu;
-  
-    menu.mainView = self.tabBarController.view;
-    
-    LYCLeftViewController *leftVC = [[LYCLeftViewController alloc] init];
-    
-    menu.leftMenuView = leftVC.view;
-    
     [self createViews];
+    
     
 }
 

@@ -13,6 +13,6 @@
 {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor lightGrayColor];
+    self.view.backgroundColor = [UIColor yellowColor];
 }
 @end
