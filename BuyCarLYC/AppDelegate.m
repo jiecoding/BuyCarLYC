@@ -17,12 +17,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
     // Override point for customization after application launch.
     LYCViewController *lycViewController = [[LYCViewController alloc] init];
     
     NSArray *viewControllers = @[lycViewController];
     
     LYCTabBarController *tabbarController = [[LYCTabBarController alloc] init];
+    
     tabbarController.viewControllers  =viewControllers;
     
     self.window.rootViewController = tabbarController;

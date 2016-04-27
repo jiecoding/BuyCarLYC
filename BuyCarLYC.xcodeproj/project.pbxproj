@@ -213,6 +213,7 @@
 				TargetAttributes = {
 					CBC6461F1CCF5B9400EA68D5 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 94V47BYM7E;
 					};
 					CBC646381CCF5B9400EA68D5 = {
 						CreatedOnToolsVersion = 7.3;
@@ -423,10 +424,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BuyCarLYC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mingren.BuyCarLYC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -435,10 +441,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BuyCarLYC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mingren.BuyCarLYC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -507,6 +518,7 @@
 				CBC6464F1CCF5B9400EA68D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBC646501CCF5B9400EA68D5 /* Build configuration list for PBXNativeTarget "BuyCarLYCTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +527,7 @@
 				CBC646521CCF5B9400EA68D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBC646531CCF5B9400EA68D5 /* Build configuration list for PBXNativeTarget "BuyCarLYCUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +536,7 @@
 				CBC646551CCF5B9400EA68D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
