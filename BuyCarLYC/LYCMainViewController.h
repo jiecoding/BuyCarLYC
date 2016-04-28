@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LYCViewController : UIViewController
+@interface LYCMainViewController : UIViewController
 
 
 @end

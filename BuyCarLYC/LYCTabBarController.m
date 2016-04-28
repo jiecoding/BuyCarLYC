@@ -7,6 +7,7 @@
 //
 
 #import "LYCTabBarController.h"
+#import "LYCMainViewController.h"
 
 @implementation LYCTabBarController
 
@@ -51,7 +52,11 @@
         }
         
     }
-  
+    
+    LYCMainViewController *lycMainVC = [[LYCMainViewController alloc] init];
+    
+    
+    [self addChildViewController:lycMainVC];
 
 }
 
@@ -69,6 +74,8 @@
     //4.跳转到相应的视图控制器. (通过selectIndex参数来设置选中了那个控制器)
     self.selectedIndex = button.tag;
 }
+
+
 
 
 @end

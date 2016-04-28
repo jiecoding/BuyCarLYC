@@ -6,15 +6,13 @@
 //  Copyright © 2016年 LYC. All rights reserved.
 //
 
-#import "LYCViewController.h"
-#import "LYCLeftViewController.h"
+#import "LYCMainViewController.h"
 
-
-@interface LYCViewController ()
+@interface LYCMainViewController ()
 
 @end
 
-@implementation LYCViewController
+@implementation LYCMainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -58,6 +56,10 @@
     scrollView.frame  = CGRectMake(0,navBgImageView.frame.size.height -  self.tabBarController.tabBar.frame.size.height+10, self.view.frame.size.width, self.tabBarController.tabBar.frame.size.height - 10);
     
     [navBgImageView addSubview:scrollView];
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

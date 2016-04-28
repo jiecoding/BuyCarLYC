@@ -8,9 +8,9 @@
 
 #import "AppDelegate.h"
 #import "LYCTabBarController.h"
-#import "LYCViewController.h"
-#import "SLideZoomMenuController.h"
-#import "LYCLeftViewController.h"
+#import "LYCMainViewController.h"
+#import "LYCBottomSliderController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -20,34 +20,32 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    LYCLeftViewController *leftVC = [[LYCLeftViewController alloc] init];
+//    LYCLeftViewController *leftVC = [[LYCLeftViewController alloc] init];
     
     // Override point for customization after application launch.
   
-    LYCViewController *lycViewController = [[LYCViewController alloc] init];
-    
-    NSArray *viewControllers = @[lycViewController];
-    
-    LYCTabBarController *tabbarController = [[LYCTabBarController alloc] init];
-    
-    tabbarController.viewControllers  = viewControllers;
-    
-    self.window.backgroundColor = [UIColor cyanColor];
+//    LYCViewController *lycViewController = [[LYCViewController alloc] init];
+//    
+//    NSArray *viewControllers = @[lycViewController];
+//    
+//    LYCTabBarController *tabbarController = [[LYCTabBarController alloc] init];
+//    
+//    tabbarController.viewControllers  = viewControllers;
+//    
+//    self.window.backgroundColor = [UIColor cyanColor];
    
     
-    UINavigationController *mainTabVCNavigation = [[UINavigationController alloc]initWithRootViewController:tabbarController];
+//    UINavigationController *mainTabVCNavigation = [[UINavigationController alloc]initWithRootViewController:tabbarController];
     
-    [mainTabVCNavigation setNavigationBarHidden:YES];
+//    [mainTabVCNavigation setNavigationBarHidden:YES];
     
-    SLideZoomMenuController *slideZoomMenu = [[SLideZoomMenuController alloc] initWithRootController:mainTabVCNavigation];
-//
-    slideZoomMenu.leftViewController = leftVC;
+ 
     
-//    self.slider = slideZoomMenu;
-    
-    self.window.rootViewController = slideZoomMenu;
+//    self.window.rootViewController = slideZoomMenu;
 
+    LYCBottomSliderController *CVC=[[LYCBottomSliderController alloc]init];
     
+    self.window.rootViewController= CVC;
     
     return YES;
 }
