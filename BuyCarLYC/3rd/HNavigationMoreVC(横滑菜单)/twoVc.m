@@ -8,6 +8,9 @@
 
 #import "twoVc.h"
 
+#import "TWCollectionViewController.h"
+#import "CollectionDefine.h"
+
 @interface twoVc ()
 
 @end
@@ -17,7 +20,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blueColor];
+    
+    TWCollectionViewController *_collectionController = [[TWCollectionViewController alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+    _collectionController.imageName = @"car2.jpg";
+    _collectionController.hidden = NO;
+    [self.view addSubview:_collectionController];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+
 }
 
 - (void)viewWillAppear:(BOOL)animated{

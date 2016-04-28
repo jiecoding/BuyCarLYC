@@ -8,7 +8,8 @@
 
 #import "LYCMainViewController.h"
 
-
+#import "TWCollectionViewController.h"
+#import "CollectionDefine.h"
 
 #import "WJSegmentMenuVc.h"
 #import "oneVc.h"
@@ -34,6 +35,9 @@
     
     [self createViews];
     
+    
+    
+  
     
 }
 

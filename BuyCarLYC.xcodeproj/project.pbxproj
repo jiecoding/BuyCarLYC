@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0EC56F1CD1E43600E4C8FB /* car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB0EC56E1CD1E43600E4C8FB /* car.jpg */; };
+		CB5EFD5A1CD1DEEC00DB168D /* TWCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5EFD591CD1DEEC00DB168D /* TWCollectionViewController.m */; };
+		CB5EFD611CD1DF1000DB168D /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5EFD5C1CD1DF1000DB168D /* CollectionViewController.m */; };
+		CB5EFD621CD1DF1000DB168D /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5EFD5D1CD1DF1000DB168D /* CollectionViewController.xib */; };
+		CB5EFD631CD1DF1000DB168D /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5EFD5F1CD1DF1000DB168D /* CollectionViewCell.m */; };
+		CB5EFD641CD1DF1000DB168D /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5EFD601CD1DF1000DB168D /* CollectionViewCell.xib */; };
+		CB8D792A1CD1EA330074CD52 /* car2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB8D79291CD1EA330074CD52 /* car2.jpg */; };
+		CB8D792C1CD1EAC40074CD52 /* car3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB8D792B1CD1EAC40074CD52 /* car3.jpg */; };
+		CB8D792F1CD1EC9C0074CD52 /* car6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB8D792D1CD1EC9C0074CD52 /* car6.jpg */; };
+		CB8D79301CD1EC9C0074CD52 /* car5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB8D792E1CD1EC9C0074CD52 /* car5.jpg */; };
+		CB8D79341CD1ED3A0074CD52 /* car7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB8D79311CD1ED3A0074CD52 /* car7.jpg */; };
+		CB8D79351CD1ED3A0074CD52 /* car10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB8D79321CD1ED3A0074CD52 /* car10.jpg */; };
+		CB8D79361CD1ED3A0074CD52 /* car8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB8D79331CD1ED3A0074CD52 /* car8.jpg */; };
 		CBB2C0B91CD1A6A900AE4C01 /* LYCBottomSliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2C0B81CD1A6A900AE4C01 /* LYCBottomSliderController.m */; };
 		CBB2C0BE1CD1A7ED00AE4C01 /* ZYWSideTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2C0BB1CD1A7ED00AE4C01 /* ZYWSideTableView.m */; };
 		CBB2C0BF1CD1A7ED00AE4C01 /* ZYWSideView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2C0BD1CD1A7ED00AE4C01 /* ZYWSideView.m */; };
@@ -53,6 +66,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB0EC56E1CD1E43600E4C8FB /* car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car.jpg; sourceTree = "<group>"; };
+		CB5EFD581CD1DEEC00DB168D /* TWCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCollectionViewController.h; sourceTree = "<group>"; };
+		CB5EFD591CD1DEEC00DB168D /* TWCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCollectionViewController.m; sourceTree = "<group>"; };
+		CB5EFD5B1CD1DF1000DB168D /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		CB5EFD5C1CD1DF1000DB168D /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		CB5EFD5D1CD1DF1000DB168D /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		CB5EFD5E1CD1DF1000DB168D /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		CB5EFD5F1CD1DF1000DB168D /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		CB5EFD601CD1DF1000DB168D /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		CB5EFD651CD1DF2500DB168D /* CollectionDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionDefine.h; sourceTree = "<group>"; };
+		CB8D79291CD1EA330074CD52 /* car2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car2.jpg; sourceTree = "<group>"; };
+		CB8D792B1CD1EAC40074CD52 /* car3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car3.jpg; sourceTree = "<group>"; };
+		CB8D792D1CD1EC9C0074CD52 /* car6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car6.jpg; sourceTree = "<group>"; };
+		CB8D792E1CD1EC9C0074CD52 /* car5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car5.jpg; sourceTree = "<group>"; };
+		CB8D79311CD1ED3A0074CD52 /* car7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car7.jpg; sourceTree = "<group>"; };
+		CB8D79321CD1ED3A0074CD52 /* car10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car10.jpg; sourceTree = "<group>"; };
+		CB8D79331CD1ED3A0074CD52 /* car8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car8.jpg; sourceTree = "<group>"; };
 		CBB2C0B71CD1A6A900AE4C01 /* LYCBottomSliderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBottomSliderController.h; sourceTree = "<group>"; };
 		CBB2C0B81CD1A6A900AE4C01 /* LYCBottomSliderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBottomSliderController.m; sourceTree = "<group>"; };
 		CBB2C0BA1CD1A7ED00AE4C01 /* ZYWSideTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWSideTableView.h; sourceTree = "<group>"; };
@@ -130,12 +160,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CBB2C0B51CD1A60000AE4C01 /* 3rd */ = {
+		CB5EFD571CD1DED400DB168D /* CollectionVC(连) */ = {
 			isa = PBXGroup;
 			children = (
+				CB5EFD651CD1DF2500DB168D /* CollectionDefine.h */,
+				CB5EFD581CD1DEEC00DB168D /* TWCollectionViewController.h */,
+				CB5EFD591CD1DEEC00DB168D /* TWCollectionViewController.m */,
+				CB5EFD5B1CD1DF1000DB168D /* CollectionViewController.h */,
+				CB5EFD5C1CD1DF1000DB168D /* CollectionViewController.m */,
+				CB5EFD5D1CD1DF1000DB168D /* CollectionViewController.xib */,
+				CB5EFD5E1CD1DF1000DB168D /* CollectionViewCell.h */,
+				CB5EFD5F1CD1DF1000DB168D /* CollectionViewCell.m */,
+				CB5EFD601CD1DF1000DB168D /* CollectionViewCell.xib */,
+			);
+			name = "CollectionVC(连)";
+			path = "CollectionVC(连    )";
+			sourceTree = "<group>";
+		};
+		CBB2C0B51CD1A60000AE4C01 /* 3rdView */ = {
+			isa = PBXGroup;
+			children = (
+				CB5EFD571CD1DED400DB168D /* CollectionVC(连) */,
 				CBB2C0D31CD1C66C00AE4C01 /* HNavigationMoreVC(横滑菜单) */,
 				CBB2C0B61CD1A60000AE4C01 /* SliderVC(侧滑) */,
 			);
+			name = 3rdView;
 			path = 3rd;
 			sourceTree = "<group>";
 		};
@@ -214,7 +263,15 @@
 				CBC6462A1CCF5B9400EA68D5 /* LYCMainViewController.m */,
 				CBC646561CCF5E1500EA68D5 /* LYCTabBarController.h */,
 				CBC646571CCF5E1500EA68D5 /* LYCTabBarController.m */,
-				CBB2C0B51CD1A60000AE4C01 /* 3rd */,
+				CB0EC56E1CD1E43600E4C8FB /* car.jpg */,
+				CB8D79291CD1EA330074CD52 /* car2.jpg */,
+				CB8D792B1CD1EAC40074CD52 /* car3.jpg */,
+				CB8D792D1CD1EC9C0074CD52 /* car6.jpg */,
+				CB8D792E1CD1EC9C0074CD52 /* car5.jpg */,
+				CB8D79311CD1ED3A0074CD52 /* car7.jpg */,
+				CB8D79321CD1ED3A0074CD52 /* car10.jpg */,
+				CB8D79331CD1ED3A0074CD52 /* car8.jpg */,
+				CBB2C0B51CD1A60000AE4C01 /* 3rdView */,
 				CBC6462C1CCF5B9400EA68D5 /* Main.storyboard */,
 				CBC6462F1CCF5B9400EA68D5 /* Assets.xcassets */,
 				CBC646311CCF5B9400EA68D5 /* LaunchScreen.storyboard */,
@@ -355,10 +412,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB5EFD621CD1DF1000DB168D /* CollectionViewController.xib in Resources */,
+				CB8D79361CD1ED3A0074CD52 /* car8.jpg in Resources */,
+				CB5EFD641CD1DF1000DB168D /* CollectionViewCell.xib in Resources */,
 				CBB2C0CC1CD1B92F00AE4C01 /* LYCLeftSliderCell.xib in Resources */,
 				CBB2C0D11CD1BC5A00AE4C01 /* LYCLeftOldCell.xib in Resources */,
+				CB8D792A1CD1EA330074CD52 /* car2.jpg in Resources */,
+				CB0EC56F1CD1E43600E4C8FB /* car.jpg in Resources */,
+				CB8D792C1CD1EAC40074CD52 /* car3.jpg in Resources */,
+				CB8D79351CD1ED3A0074CD52 /* car10.jpg in Resources */,
 				CBC646331CCF5B9400EA68D5 /* LaunchScreen.storyboard in Resources */,
+				CB8D79341CD1ED3A0074CD52 /* car7.jpg in Resources */,
 				CBC646301CCF5B9400EA68D5 /* Assets.xcassets in Resources */,
+				CB8D792F1CD1EC9C0074CD52 /* car6.jpg in Resources */,
+				CB8D79301CD1EC9C0074CD52 /* car5.jpg in Resources */,
 				CBC6462E1CCF5B9400EA68D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +461,8 @@
 				CBC646581CCF5E1500EA68D5 /* LYCTabBarController.m in Sources */,
 				CBB2C0E41CD1C68600AE4C01 /* oneVc.m in Sources */,
 				CBC6462B1CCF5B9400EA68D5 /* LYCMainViewController.m in Sources */,
+				CB5EFD5A1CD1DEEC00DB168D /* TWCollectionViewController.m in Sources */,
+				CB5EFD631CD1DF1000DB168D /* CollectionViewCell.m in Sources */,
 				CBC646281CCF5B9400EA68D5 /* AppDelegate.m in Sources */,
 				CBB2C0C21CD1A8A100AE4C01 /* UIView+SHCZExt.m in Sources */,
 				CBB2C0E51CD1C68600AE4C01 /* twoVc.m in Sources */,
@@ -402,6 +471,7 @@
 				CBB2C0EB1CD1C68600AE4C01 /* eigthVc.m in Sources */,
 				CBB2C0E71CD1C68600AE4C01 /* fourVc.m in Sources */,
 				CBB2C0C81CD1B8F400AE4C01 /* LYCLeftSliderCell.m in Sources */,
+				CB5EFD611CD1DF1000DB168D /* CollectionViewController.m in Sources */,
 				CBB2C0E91CD1C68600AE4C01 /* sixVc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

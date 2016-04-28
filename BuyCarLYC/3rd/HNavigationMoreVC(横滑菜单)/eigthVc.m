@@ -7,7 +7,8 @@
 //
 
 #import "eigthVc.h"
-
+#import "TWCollectionViewController.h"
+#import "CollectionDefine.h"
 @interface eigthVc ()
 
 @end
@@ -18,6 +19,14 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor purpleColor];
     // Do any additional setup after loading the view.
+    TWCollectionViewController *_collectionController = [[TWCollectionViewController alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+    
+    _collectionController.imageName = @"car7.jpg";
+    
+    _collectionController.hidden = NO;
+    [self.view addSubview:_collectionController];
+    
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {
