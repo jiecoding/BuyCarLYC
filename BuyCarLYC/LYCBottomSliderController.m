@@ -65,7 +65,7 @@
     //    NSLog(@"%@",self.view.subviews);
     MVC.view.frame = self.view.bounds;
     
-    UIButton *pullLeftVCbutton  = [UIButton buttonWithType:UIButtonTypeContactAdd];
+    UIButton *pullLeftVCbutton  = [UIButton buttonWithType:UIButtonTypeCustom];
     
     pullLeftVCbutton.frame =CGRectMake(0, 0, 100, 100);
     [pullLeftVCbutton addTarget:self action:@selector(tapAction) forControlEvents:UIControlEventTouchUpInside];

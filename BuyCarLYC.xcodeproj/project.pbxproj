@@ -15,6 +15,15 @@
 		CBB2C0CC1CD1B92F00AE4C01 /* LYCLeftSliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB2C0CB1CD1B92F00AE4C01 /* LYCLeftSliderCell.xib */; };
 		CBB2C0CF1CD1BC3400AE4C01 /* LYCLeftOldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2C0CE1CD1BC3400AE4C01 /* LYCLeftOldCell.m */; };
 		CBB2C0D11CD1BC5A00AE4C01 /* LYCLeftOldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB2C0D01CD1BC5A00AE4C01 /* LYCLeftOldCell.xib */; };
+		CBB2C0E41CD1C68600AE4C01 /* oneVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2C0D51CD1C68600AE4C01 /* oneVc.m */; };
+		CBB2C0E51CD1C68600AE4C01 /* twoVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2C0D71CD1C68600AE4C01 /* twoVc.m */; };
+		CBB2C0E61CD1C68600AE4C01 /* threeVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2C0D91CD1C68600AE4C01 /* threeVc.m */; };
+		CBB2C0E71CD1C68600AE4C01 /* fourVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2C0DB1CD1C68600AE4C01 /* fourVc.m */; };
+		CBB2C0E81CD1C68600AE4C01 /* fireVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2C0DD1CD1C68600AE4C01 /* fireVc.m */; };
+		CBB2C0E91CD1C68600AE4C01 /* sixVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2C0DF1CD1C68600AE4C01 /* sixVc.m */; };
+		CBB2C0EA1CD1C68600AE4C01 /* sevenVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2C0E11CD1C68600AE4C01 /* sevenVc.m */; };
+		CBB2C0EB1CD1C68600AE4C01 /* eigthVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2C0E31CD1C68600AE4C01 /* eigthVc.m */; };
+		CBB2C0EE1CD1C68E00AE4C01 /* WJSegmentMenuVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2C0ED1CD1C68E00AE4C01 /* WJSegmentMenuVc.m */; };
 		CBC646251CCF5B9400EA68D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC646241CCF5B9400EA68D5 /* main.m */; };
 		CBC646281CCF5B9400EA68D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC646271CCF5B9400EA68D5 /* AppDelegate.m */; };
 		CBC6462B1CCF5B9400EA68D5 /* LYCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC6462A1CCF5B9400EA68D5 /* LYCMainViewController.m */; };
@@ -58,6 +67,24 @@
 		CBB2C0CD1CD1BC3400AE4C01 /* LYCLeftOldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCLeftOldCell.h; sourceTree = "<group>"; };
 		CBB2C0CE1CD1BC3400AE4C01 /* LYCLeftOldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCLeftOldCell.m; sourceTree = "<group>"; };
 		CBB2C0D01CD1BC5A00AE4C01 /* LYCLeftOldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCLeftOldCell.xib; sourceTree = "<group>"; };
+		CBB2C0D41CD1C68600AE4C01 /* oneVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneVc.h; sourceTree = "<group>"; };
+		CBB2C0D51CD1C68600AE4C01 /* oneVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneVc.m; sourceTree = "<group>"; };
+		CBB2C0D61CD1C68600AE4C01 /* twoVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoVc.h; sourceTree = "<group>"; };
+		CBB2C0D71CD1C68600AE4C01 /* twoVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoVc.m; sourceTree = "<group>"; };
+		CBB2C0D81CD1C68600AE4C01 /* threeVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threeVc.h; sourceTree = "<group>"; };
+		CBB2C0D91CD1C68600AE4C01 /* threeVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threeVc.m; sourceTree = "<group>"; };
+		CBB2C0DA1CD1C68600AE4C01 /* fourVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourVc.h; sourceTree = "<group>"; };
+		CBB2C0DB1CD1C68600AE4C01 /* fourVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourVc.m; sourceTree = "<group>"; };
+		CBB2C0DC1CD1C68600AE4C01 /* fireVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fireVc.h; sourceTree = "<group>"; };
+		CBB2C0DD1CD1C68600AE4C01 /* fireVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fireVc.m; sourceTree = "<group>"; };
+		CBB2C0DE1CD1C68600AE4C01 /* sixVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sixVc.h; sourceTree = "<group>"; };
+		CBB2C0DF1CD1C68600AE4C01 /* sixVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sixVc.m; sourceTree = "<group>"; };
+		CBB2C0E01CD1C68600AE4C01 /* sevenVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sevenVc.h; sourceTree = "<group>"; };
+		CBB2C0E11CD1C68600AE4C01 /* sevenVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sevenVc.m; sourceTree = "<group>"; };
+		CBB2C0E21CD1C68600AE4C01 /* eigthVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eigthVc.h; sourceTree = "<group>"; };
+		CBB2C0E31CD1C68600AE4C01 /* eigthVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eigthVc.m; sourceTree = "<group>"; };
+		CBB2C0EC1CD1C68E00AE4C01 /* WJSegmentMenuVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSegmentMenuVc.h; sourceTree = "<group>"; };
+		CBB2C0ED1CD1C68E00AE4C01 /* WJSegmentMenuVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSegmentMenuVc.m; sourceTree = "<group>"; };
 		CBC646201CCF5B9400EA68D5 /* BuyCarLYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuyCarLYC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC646241CCF5B9400EA68D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBC646261CCF5B9400EA68D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +133,7 @@
 		CBB2C0B51CD1A60000AE4C01 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				CBB2C0D31CD1C66C00AE4C01 /* HNavigationMoreVC(横滑菜单) */,
 				CBB2C0B61CD1A60000AE4C01 /* SliderVC(侧滑) */,
 			);
 			path = 3rd;
@@ -128,6 +156,31 @@
 				CBB2C0D01CD1BC5A00AE4C01 /* LYCLeftOldCell.xib */,
 			);
 			path = "SliderVC(侧滑)";
+			sourceTree = "<group>";
+		};
+		CBB2C0D31CD1C66C00AE4C01 /* HNavigationMoreVC(横滑菜单) */ = {
+			isa = PBXGroup;
+			children = (
+				CBB2C0EC1CD1C68E00AE4C01 /* WJSegmentMenuVc.h */,
+				CBB2C0ED1CD1C68E00AE4C01 /* WJSegmentMenuVc.m */,
+				CBB2C0D41CD1C68600AE4C01 /* oneVc.h */,
+				CBB2C0D51CD1C68600AE4C01 /* oneVc.m */,
+				CBB2C0D61CD1C68600AE4C01 /* twoVc.h */,
+				CBB2C0D71CD1C68600AE4C01 /* twoVc.m */,
+				CBB2C0D81CD1C68600AE4C01 /* threeVc.h */,
+				CBB2C0D91CD1C68600AE4C01 /* threeVc.m */,
+				CBB2C0DA1CD1C68600AE4C01 /* fourVc.h */,
+				CBB2C0DB1CD1C68600AE4C01 /* fourVc.m */,
+				CBB2C0DC1CD1C68600AE4C01 /* fireVc.h */,
+				CBB2C0DD1CD1C68600AE4C01 /* fireVc.m */,
+				CBB2C0DE1CD1C68600AE4C01 /* sixVc.h */,
+				CBB2C0DF1CD1C68600AE4C01 /* sixVc.m */,
+				CBB2C0E01CD1C68600AE4C01 /* sevenVc.h */,
+				CBB2C0E11CD1C68600AE4C01 /* sevenVc.m */,
+				CBB2C0E21CD1C68600AE4C01 /* eigthVc.h */,
+				CBB2C0E31CD1C68600AE4C01 /* eigthVc.m */,
+			);
+			path = "HNavigationMoreVC(横滑菜单)";
 			sourceTree = "<group>";
 		};
 		CBC646171CCF5B9400EA68D5 = {
@@ -331,16 +384,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB2C0E61CD1C68600AE4C01 /* threeVc.m in Sources */,
 				CBB2C0BE1CD1A7ED00AE4C01 /* ZYWSideTableView.m in Sources */,
 				CBB2C0CF1CD1BC3400AE4C01 /* LYCLeftOldCell.m in Sources */,
+				CBB2C0E81CD1C68600AE4C01 /* fireVc.m in Sources */,
 				CBB2C0B91CD1A6A900AE4C01 /* LYCBottomSliderController.m in Sources */,
 				CBB2C0BF1CD1A7ED00AE4C01 /* ZYWSideView.m in Sources */,
+				CBB2C0EE1CD1C68E00AE4C01 /* WJSegmentMenuVc.m in Sources */,
 				CBC646581CCF5E1500EA68D5 /* LYCTabBarController.m in Sources */,
+				CBB2C0E41CD1C68600AE4C01 /* oneVc.m in Sources */,
 				CBC6462B1CCF5B9400EA68D5 /* LYCMainViewController.m in Sources */,
 				CBC646281CCF5B9400EA68D5 /* AppDelegate.m in Sources */,
 				CBB2C0C21CD1A8A100AE4C01 /* UIView+SHCZExt.m in Sources */,
+				CBB2C0E51CD1C68600AE4C01 /* twoVc.m in Sources */,
 				CBC646251CCF5B9400EA68D5 /* main.m in Sources */,
+				CBB2C0EA1CD1C68600AE4C01 /* sevenVc.m in Sources */,
+				CBB2C0EB1CD1C68600AE4C01 /* eigthVc.m in Sources */,
+				CBB2C0E71CD1C68600AE4C01 /* fourVc.m in Sources */,
 				CBB2C0C81CD1B8F400AE4C01 /* LYCLeftSliderCell.m in Sources */,
+				CBB2C0E91CD1C68600AE4C01 /* sixVc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
