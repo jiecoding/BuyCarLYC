@@ -30,15 +30,10 @@
     //在self.view上创建一个透明的View  作为leftView
     ZYWSideView *leftView=[[ZYWSideView alloc]initWithFrame:CGRectMake(-self.view.frame.size.width*0.25,0,self.view.bounds.size.width,self.view.bounds.size.height)];
 
-    
-
     UIImageView *img=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"leftBg"]];
     img.frame=CGRectMake(0,0,self.view.frame.size.width/2 +20,self.view.frame.size.height - self.view.frame.size.height/3);
     
-    
-    
     [self.view addSubview:img];
-    
     
     //添加
     [self.view addSubview:leftView];

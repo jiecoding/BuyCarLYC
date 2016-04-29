@@ -21,6 +21,8 @@
 #import "sevenVc.h"
 #import "eigthVc.h"
 
+
+#import "NextViewController.h"
 @interface LYCMainViewController ()
 
 @end
@@ -36,8 +38,6 @@
     [self createViews];
     
     
-    
-  
     
 }
 
@@ -92,7 +92,7 @@
     NSArray *titles = @[@"值得买",@"紧凑型车",@"SUV",@"中型车",@"专车",@"代驾",@"试驾",@"其他"];
     oneVc      *vc1 = [[oneVc alloc]init];
     twoVc      *vc2 = [[twoVc alloc]init];
-    threeVc    *vc3 = [[threeVc alloc]init];
+    NextViewController    *vc3 = [[NextViewController alloc]init];
     fourVc     *vc4 = [[fourVc alloc]init];
     fireVc     *vc5 = [[fireVc alloc]init];
     sixVc      *vc6 = [[sixVc alloc]init];

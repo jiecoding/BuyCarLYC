@@ -23,6 +23,7 @@
 		CB8D79341CD1ED3A0074CD52 /* car7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB8D79311CD1ED3A0074CD52 /* car7.jpg */; };
 		CB8D79351CD1ED3A0074CD52 /* car10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB8D79321CD1ED3A0074CD52 /* car10.jpg */; };
 		CB8D79361CD1ED3A0074CD52 /* car8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB8D79331CD1ED3A0074CD52 /* car8.jpg */; };
+		CBA7EA581CD3482500F1B8FC /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA7EA571CD3482500F1B8FC /* NextViewController.m */; };
 		CBB2C0B91CD1A6A900AE4C01 /* LYCBottomSliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2C0B81CD1A6A900AE4C01 /* LYCBottomSliderController.m */; };
 		CBB2C0BE1CD1A7ED00AE4C01 /* ZYWSideTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2C0BB1CD1A7ED00AE4C01 /* ZYWSideTableView.m */; };
 		CBB2C0BF1CD1A7ED00AE4C01 /* ZYWSideView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2C0BD1CD1A7ED00AE4C01 /* ZYWSideView.m */; };
@@ -106,6 +107,8 @@
 		CB8D79311CD1ED3A0074CD52 /* car7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car7.jpg; sourceTree = "<group>"; };
 		CB8D79321CD1ED3A0074CD52 /* car10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car10.jpg; sourceTree = "<group>"; };
 		CB8D79331CD1ED3A0074CD52 /* car8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car8.jpg; sourceTree = "<group>"; };
+		CBA7EA561CD3482500F1B8FC /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		CBA7EA571CD3482500F1B8FC /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		CBB2C0B71CD1A6A900AE4C01 /* LYCBottomSliderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBottomSliderController.h; sourceTree = "<group>"; };
 		CBB2C0B81CD1A6A900AE4C01 /* LYCBottomSliderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBottomSliderController.m; sourceTree = "<group>"; };
 		CBB2C0BA1CD1A7ED00AE4C01 /* ZYWSideTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWSideTableView.h; sourceTree = "<group>"; };
@@ -252,9 +255,19 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		CBA7EA551CD3481C00F1B8FC /* 联系人列表 */ = {
+			isa = PBXGroup;
+			children = (
+				CBA7EA561CD3482500F1B8FC /* NextViewController.h */,
+				CBA7EA571CD3482500F1B8FC /* NextViewController.m */,
+			);
+			name = "联系人列表";
+			sourceTree = "<group>";
+		};
 		CBB2C0B51CD1A60000AE4C01 /* 3rdView */ = {
 			isa = PBXGroup;
 			children = (
+				CBA7EA551CD3481C00F1B8FC /* 联系人列表 */,
 				CBEB45A11CD33A9F00A5B38B /* JExcelView */,
 				CB5EFD571CD1DED400DB168D /* CollectionVC(连) */,
 				CBB2C0D31CD1C66C00AE4C01 /* HNavigationMoreVC(横滑菜单) */,
@@ -650,6 +663,7 @@
 				CBEB45C61CD33A9F00A5B38B /* TopCollectionView.m in Sources */,
 				CBB2C0BF1CD1A7ED00AE4C01 /* ZYWSideView.m in Sources */,
 				CBB2C0EE1CD1C68E00AE4C01 /* WJSegmentMenuVc.m in Sources */,
+				CBA7EA581CD3482500F1B8FC /* NextViewController.m in Sources */,
 				CBC646581CCF5E1500EA68D5 /* LYCTabBarController.m in Sources */,
 				CBB2C0E41CD1C68600AE4C01 /* oneVc.m in Sources */,
 				CBC6462B1CCF5B9400EA68D5 /* LYCMainViewController.m in Sources */,
