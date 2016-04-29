@@ -11,10 +11,18 @@
             <rect key="frame" x="0.0" y="0.0" width="229" height="227"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oldcellbg" translatesAutoresizingMaskIntoConstraints="NO" id="s9N-Bq-alk">
-                    <rect key="frame" x="39" y="-15" width="173" height="254"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="oldcellbg" translatesAutoresizingMaskIntoConstraints="NO" id="s9N-Bq-alk">
+                    <rect key="frame" x="39" y="-15" width="153" height="180"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="180" id="FlW-Qt-aTr"/>
+                        <constraint firstAttribute="width" constant="153" id="P2H-RB-7h0"/>
+                    </constraints>
                 </imageView>
             </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="s9N-Bq-alk" secondAttribute="bottom" constant="62" id="35m-IH-xdD"/>
+                <constraint firstItem="s9N-Bq-alk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="39" id="CMu-Kx-qZl"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="2.5" y="188.5"/>
         </view>

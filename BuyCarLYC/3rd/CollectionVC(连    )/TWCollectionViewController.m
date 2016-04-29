@@ -69,8 +69,6 @@
     
     [cell.contentView addSubview:imageView];
     
-    
-    
     UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 100, 120, 20)];
     //label.text = [NSString stringWithFormat:@"顺序", (long)indexPath.row ];
     label.text = @"测试用车";

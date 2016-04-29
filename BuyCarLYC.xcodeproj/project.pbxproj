@@ -49,6 +49,19 @@
 		CBC6463E1CCF5B9400EA68D5 /* BuyCarLYCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC6463D1CCF5B9400EA68D5 /* BuyCarLYCTests.m */; };
 		CBC646491CCF5B9400EA68D5 /* BuyCarLYCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC646481CCF5B9400EA68D5 /* BuyCarLYCUITests.m */; };
 		CBC646581CCF5E1500EA68D5 /* LYCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC646571CCF5E1500EA68D5 /* LYCTabBarController.m */; };
+		CBEB45BC1CD33A9F00A5B38B /* CellSelectedBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB45A41CD33A9F00A5B38B /* CellSelectedBackgroundView.m */; };
+		CBEB45BD1CD33A9F00A5B38B /* ContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB45A61CD33A9F00A5B38B /* ContentCollectionViewCell.m */; };
+		CBEB45BE1CD33A9F00A5B38B /* ContentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBEB45A71CD33A9F00A5B38B /* ContentCollectionViewCell.xib */; };
+		CBEB45BF1CD33A9F00A5B38B /* ContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB45A91CD33A9F00A5B38B /* ContentTableView.m */; };
+		CBEB45C01CD33A9F00A5B38B /* ContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB45AB1CD33A9F00A5B38B /* ContentTableViewCell.m */; };
+		CBEB45C11CD33A9F00A5B38B /* ContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBEB45AC1CD33A9F00A5B38B /* ContentTableViewCell.xib */; };
+		CBEB45C21CD33A9F00A5B38B /* ExcelView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB45AF1CD33A9F00A5B38B /* ExcelView.m */; };
+		CBEB45C31CD33A9F00A5B38B /* LeftTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB45B21CD33A9F00A5B38B /* LeftTableView.m */; };
+		CBEB45C41CD33A9F00A5B38B /* LeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB45B41CD33A9F00A5B38B /* LeftTableViewCell.m */; };
+		CBEB45C51CD33A9F00A5B38B /* LeftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBEB45B51CD33A9F00A5B38B /* LeftTableViewCell.xib */; };
+		CBEB45C61CD33A9F00A5B38B /* TopCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB45B81CD33A9F00A5B38B /* TopCollectionView.m */; };
+		CBEB45C71CD33A9F00A5B38B /* TopCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB45BA1CD33A9F00A5B38B /* TopCollectionViewCell.m */; };
+		CBEB45C81CD33A9F00A5B38B /* TopCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBEB45BB1CD33A9F00A5B38B /* TopCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +156,29 @@
 		CBC6464A1CCF5B9400EA68D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBC646561CCF5E1500EA68D5 /* LYCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCTabBarController.h; sourceTree = "<group>"; };
 		CBC646571CCF5E1500EA68D5 /* LYCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCTabBarController.m; sourceTree = "<group>"; };
+		CBEB45A31CD33A9F00A5B38B /* CellSelectedBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellSelectedBackgroundView.h; sourceTree = "<group>"; };
+		CBEB45A41CD33A9F00A5B38B /* CellSelectedBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellSelectedBackgroundView.m; sourceTree = "<group>"; };
+		CBEB45A51CD33A9F00A5B38B /* ContentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentCollectionViewCell.h; sourceTree = "<group>"; };
+		CBEB45A61CD33A9F00A5B38B /* ContentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentCollectionViewCell.m; sourceTree = "<group>"; };
+		CBEB45A71CD33A9F00A5B38B /* ContentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentCollectionViewCell.xib; sourceTree = "<group>"; };
+		CBEB45A81CD33A9F00A5B38B /* ContentTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentTableView.h; sourceTree = "<group>"; };
+		CBEB45A91CD33A9F00A5B38B /* ContentTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentTableView.m; sourceTree = "<group>"; };
+		CBEB45AA1CD33A9F00A5B38B /* ContentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentTableViewCell.h; sourceTree = "<group>"; };
+		CBEB45AB1CD33A9F00A5B38B /* ContentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentTableViewCell.m; sourceTree = "<group>"; };
+		CBEB45AC1CD33A9F00A5B38B /* ContentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentTableViewCell.xib; sourceTree = "<group>"; };
+		CBEB45AD1CD33A9F00A5B38B /* Excel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Excel.h; sourceTree = "<group>"; };
+		CBEB45AE1CD33A9F00A5B38B /* ExcelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcelView.h; sourceTree = "<group>"; };
+		CBEB45AF1CD33A9F00A5B38B /* ExcelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcelView.m; sourceTree = "<group>"; };
+		CBEB45B11CD33A9F00A5B38B /* LeftTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableView.h; sourceTree = "<group>"; };
+		CBEB45B21CD33A9F00A5B38B /* LeftTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableView.m; sourceTree = "<group>"; };
+		CBEB45B31CD33A9F00A5B38B /* LeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewCell.h; sourceTree = "<group>"; };
+		CBEB45B41CD33A9F00A5B38B /* LeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewCell.m; sourceTree = "<group>"; };
+		CBEB45B51CD33A9F00A5B38B /* LeftTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftTableViewCell.xib; sourceTree = "<group>"; };
+		CBEB45B71CD33A9F00A5B38B /* TopCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopCollectionView.h; sourceTree = "<group>"; };
+		CBEB45B81CD33A9F00A5B38B /* TopCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopCollectionView.m; sourceTree = "<group>"; };
+		CBEB45B91CD33A9F00A5B38B /* TopCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopCollectionViewCell.h; sourceTree = "<group>"; };
+		CBEB45BA1CD33A9F00A5B38B /* TopCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopCollectionViewCell.m; sourceTree = "<group>"; };
+		CBEB45BB1CD33A9F00A5B38B /* TopCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +255,7 @@
 		CBB2C0B51CD1A60000AE4C01 /* 3rdView */ = {
 			isa = PBXGroup;
 			children = (
+				CBEB45A11CD33A9F00A5B38B /* JExcelView */,
 				CB5EFD571CD1DED400DB168D /* CollectionVC(连) */,
 				CBB2C0D31CD1C66C00AE4C01 /* HNavigationMoreVC(横滑菜单) */,
 				CBB2C0B61CD1A60000AE4C01 /* SliderVC(侧滑) */,
@@ -349,6 +386,60 @@
 			path = BuyCarLYCUITests;
 			sourceTree = "<group>";
 		};
+		CBEB45A11CD33A9F00A5B38B /* JExcelView */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB45A21CD33A9F00A5B38B /* ContentView */,
+				CBEB45AD1CD33A9F00A5B38B /* Excel.h */,
+				CBEB45AE1CD33A9F00A5B38B /* ExcelView.h */,
+				CBEB45AF1CD33A9F00A5B38B /* ExcelView.m */,
+				CBEB45B01CD33A9F00A5B38B /* LeftTableView */,
+				CBEB45B61CD33A9F00A5B38B /* TopCollectionView */,
+			);
+			path = JExcelView;
+			sourceTree = "<group>";
+		};
+		CBEB45A21CD33A9F00A5B38B /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB45A31CD33A9F00A5B38B /* CellSelectedBackgroundView.h */,
+				CBEB45A41CD33A9F00A5B38B /* CellSelectedBackgroundView.m */,
+				CBEB45A51CD33A9F00A5B38B /* ContentCollectionViewCell.h */,
+				CBEB45A61CD33A9F00A5B38B /* ContentCollectionViewCell.m */,
+				CBEB45A71CD33A9F00A5B38B /* ContentCollectionViewCell.xib */,
+				CBEB45A81CD33A9F00A5B38B /* ContentTableView.h */,
+				CBEB45A91CD33A9F00A5B38B /* ContentTableView.m */,
+				CBEB45AA1CD33A9F00A5B38B /* ContentTableViewCell.h */,
+				CBEB45AB1CD33A9F00A5B38B /* ContentTableViewCell.m */,
+				CBEB45AC1CD33A9F00A5B38B /* ContentTableViewCell.xib */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		CBEB45B01CD33A9F00A5B38B /* LeftTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB45B11CD33A9F00A5B38B /* LeftTableView.h */,
+				CBEB45B21CD33A9F00A5B38B /* LeftTableView.m */,
+				CBEB45B31CD33A9F00A5B38B /* LeftTableViewCell.h */,
+				CBEB45B41CD33A9F00A5B38B /* LeftTableViewCell.m */,
+				CBEB45B51CD33A9F00A5B38B /* LeftTableViewCell.xib */,
+			);
+			path = LeftTableView;
+			sourceTree = "<group>";
+		};
+		CBEB45B61CD33A9F00A5B38B /* TopCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB45B71CD33A9F00A5B38B /* TopCollectionView.h */,
+				CBEB45B81CD33A9F00A5B38B /* TopCollectionView.m */,
+				CBEB45B91CD33A9F00A5B38B /* TopCollectionViewCell.h */,
+				CBEB45BA1CD33A9F00A5B38B /* TopCollectionViewCell.m */,
+				CBEB45BB1CD33A9F00A5B38B /* TopCollectionViewCell.xib */,
+			);
+			path = TopCollectionView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -457,6 +548,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBEB45BE1CD33A9F00A5B38B /* ContentCollectionViewCell.xib in Resources */,
 				CB5EFD621CD1DF1000DB168D /* CollectionViewController.xib in Resources */,
 				CB8D79361CD1ED3A0074CD52 /* car8.jpg in Resources */,
 				CB5EFD641CD1DF1000DB168D /* CollectionViewCell.xib in Resources */,
@@ -468,10 +560,13 @@
 				CB8D79351CD1ED3A0074CD52 /* car10.jpg in Resources */,
 				CBC646331CCF5B9400EA68D5 /* LaunchScreen.storyboard in Resources */,
 				CB8D79341CD1ED3A0074CD52 /* car7.jpg in Resources */,
+				CBEB45C51CD33A9F00A5B38B /* LeftTableViewCell.xib in Resources */,
 				CBC646301CCF5B9400EA68D5 /* Assets.xcassets in Resources */,
+				CBEB45C81CD33A9F00A5B38B /* TopCollectionViewCell.xib in Resources */,
 				CB8D792F1CD1EC9C0074CD52 /* car6.jpg in Resources */,
 				CB8D79301CD1EC9C0074CD52 /* car5.jpg in Resources */,
 				CBC6462E1CCF5B9400EA68D5 /* Main.storyboard in Resources */,
+				CBEB45C11CD33A9F00A5B38B /* ContentTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,23 +644,32 @@
 				CBB2C0BE1CD1A7ED00AE4C01 /* ZYWSideTableView.m in Sources */,
 				CBB2C0CF1CD1BC3400AE4C01 /* LYCLeftOldCell.m in Sources */,
 				CBB2C0E81CD1C68600AE4C01 /* fireVc.m in Sources */,
+				CBEB45BC1CD33A9F00A5B38B /* CellSelectedBackgroundView.m in Sources */,
+				CBEB45BD1CD33A9F00A5B38B /* ContentCollectionViewCell.m in Sources */,
 				CBB2C0B91CD1A6A900AE4C01 /* LYCBottomSliderController.m in Sources */,
+				CBEB45C61CD33A9F00A5B38B /* TopCollectionView.m in Sources */,
 				CBB2C0BF1CD1A7ED00AE4C01 /* ZYWSideView.m in Sources */,
 				CBB2C0EE1CD1C68E00AE4C01 /* WJSegmentMenuVc.m in Sources */,
 				CBC646581CCF5E1500EA68D5 /* LYCTabBarController.m in Sources */,
 				CBB2C0E41CD1C68600AE4C01 /* oneVc.m in Sources */,
 				CBC6462B1CCF5B9400EA68D5 /* LYCMainViewController.m in Sources */,
 				CB5EFD5A1CD1DEEC00DB168D /* TWCollectionViewController.m in Sources */,
+				CBEB45C31CD33A9F00A5B38B /* LeftTableView.m in Sources */,
 				CB5EFD631CD1DF1000DB168D /* CollectionViewCell.m in Sources */,
+				CBEB45C01CD33A9F00A5B38B /* ContentTableViewCell.m in Sources */,
 				CB82B9971CD3014E002F75F0 /* LYCHomeService.m in Sources */,
 				CBC646281CCF5B9400EA68D5 /* AppDelegate.m in Sources */,
 				CBB2C0C21CD1A8A100AE4C01 /* UIView+SHCZExt.m in Sources */,
 				CBB2C0E51CD1C68600AE4C01 /* twoVc.m in Sources */,
+				CBEB45C41CD33A9F00A5B38B /* LeftTableViewCell.m in Sources */,
 				CBC646251CCF5B9400EA68D5 /* main.m in Sources */,
+				CBEB45C71CD33A9F00A5B38B /* TopCollectionViewCell.m in Sources */,
+				CBEB45BF1CD33A9F00A5B38B /* ContentTableView.m in Sources */,
 				CBB2C0EA1CD1C68600AE4C01 /* sevenVc.m in Sources */,
 				CBB2C0EB1CD1C68600AE4C01 /* eigthVc.m in Sources */,
 				CBB2C0E71CD1C68600AE4C01 /* fourVc.m in Sources */,
 				CBB2C0C81CD1B8F400AE4C01 /* LYCLeftSliderCell.m in Sources */,
+				CBEB45C21CD33A9F00A5B38B /* ExcelView.m in Sources */,
 				CB5EFD611CD1DF1000DB168D /* CollectionViewController.m in Sources */,
 				CBB2C0E91CD1C68600AE4C01 /* sixVc.m in Sources */,
 			);

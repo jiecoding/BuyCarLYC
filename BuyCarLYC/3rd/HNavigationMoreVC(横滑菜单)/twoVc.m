@@ -11,6 +11,9 @@
 #import "TWCollectionViewController.h"
 #import "CollectionDefine.h"
 
+#import "ExcelView.h"
+
+
 @interface twoVc ()
 
 @end
@@ -21,13 +24,21 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blueColor];
     
-    TWCollectionViewController *_collectionController = [[TWCollectionViewController alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
-    _collectionController.imageName = @"car2.jpg";
-    _collectionController.hidden = NO;
-    [self.view addSubview:_collectionController];
+//    TWCollectionViewController *_collectionController = [[TWCollectionViewController alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+//    _collectionController.imageName = @"car2.jpg";
+//    _collectionController.hidden = NO;
+//    [self.view addSubview:_collectionController];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
 
+    
+    ExcelView* excel = [[ExcelView alloc] initWithFrame:CGRectMake(10, 10, [UIScreen mainScreen].bounds.size.width-20, [UIScreen mainScreen].bounds.size.height-20)];
+    excel.topHeight = 130;
+    excel.contentHeight= 50;
+    
+    excel.leftWidth = 100;
+
+    [self.view addSubview:excel];
 }
 
 - (void)viewWillAppear:(BOOL)animated{
