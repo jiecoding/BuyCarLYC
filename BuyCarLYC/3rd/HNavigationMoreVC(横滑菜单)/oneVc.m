@@ -9,7 +9,7 @@
 #import "oneVc.h"
 #import "TWCollectionViewController.h"
 #import "CollectionDefine.h"
-
+#import "zzBaseService.h"
 @interface oneVc ()
 
 @end
@@ -19,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor greenColor];
+    
+    
     // Do any additional setup after loading the view.
     
     
