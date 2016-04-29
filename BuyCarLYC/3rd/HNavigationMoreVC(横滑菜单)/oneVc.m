@@ -10,7 +10,8 @@
 #import "TWCollectionViewController.h"
 #import "CollectionDefine.h"
 #import "zzBaseService.h"
-@interface oneVc ()
+#import "LYCHomeService.h"
+@interface oneVc ()<zzBaseServiceDelegate>
 
 @end
 
@@ -33,6 +34,19 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
+    
+    LYCHomeService *lycHome = [[LYCHomeService alloc] init];
+    
+    lycHome.delegate = self;
+    
+    [lycHome req];
+    
+    
+}
+
+- (void)zzServiceDelegate_RequestSuccess:(id)object
+{
+    NSLog(@"object:%@",object);
 }
 
 - (void)didReceiveMemoryWarning {

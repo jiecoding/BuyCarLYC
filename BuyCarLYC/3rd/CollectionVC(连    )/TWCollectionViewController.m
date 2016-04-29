@@ -5,7 +5,7 @@
 //  Created by tang on 16/3/7.
 //  Copyright © 2016年 tang. All rights reserved.
 //
-
+#import "UIImageView+WebCache.h"
 #import "TWCollectionViewController.h"
 #import "CollectionDefine.h"
 #define StaticCell  @"CollectionCell"
@@ -58,9 +58,12 @@
     
     imageView.backgroundColor = [UIColor yellowColor];
 
+//    NSString *urlStr =@"http://i1.chexun.net/images/2016/0331/17998/car_750_500_105C0D5F35C167A8E999112570B3666F.jpg";
+//    [imageView setImageWithURL:[NSURL URLWithString:urlStr] placeholderImage:[UIImage imageNamed:@""]];
+
    //https://segmentfault.com/a/1190000002933776
-//    UIImage *image=[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://i1.chexun.net/images/2016/0331/17998/car_750_500_105C0D5F35C167A8E999112570B3666F.jpg"]]];
-//
+//    UIImage *image=[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:]]];
+
 //    [imageView setImage:image];
     imageView.image = [UIImage imageNamed:_imageName];
     

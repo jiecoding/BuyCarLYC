@@ -8,7 +8,7 @@
 
 
 #import "zzBaseService.h"
-
+#import "AFNetworking.h"
 @implementation NSString (compare)
 
 -(NSComparisonResult)XCompare:(NSString*)other
@@ -137,8 +137,7 @@
     }
     _isRequesting = YES;
 
-    XBLog(@"[%d]sendRequest post URL=%@",__LINE__,_requestUrl);
-    NSString *urlEncodeStr = [_requestUrl stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+     NSString *urlEncodeStr = [_requestUrl stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     
   
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
@@ -197,20 +196,12 @@
     NSArray *sortArr = [keysArr sortedArrayUsingSelector:@selector(XCompare:)];
     
     NSMutableString *string = [[NSMutableString alloc] initWithCapacity:3];
-    [string appendString:APPKEY];
     
-    XBLog(@"参数＝＝＝＝＝＝＝＝＝＝");
-    for(id item in sortArr){
+     for(id item in sortArr){
 //      [string appendFormat:@"%@%@",item,[_dataParams objectForKey:item]];
         [string appendFormat:@"%@",[_dataParams objectForKey:item]];
-        XBLog(@"%@ = %@ ",item,[_dataParams objectForKey:item]);
-    }
-    [string appendString:APPSECRET]; //首尾要加上secret
-    XBLog(@"加密参数数据 checkToken= %@ ",string);
-    NSString *md5 = [[string md5Hash:32] lowercaseString];
-    XBLog(@"md5 checkToken = %@",md5);
-    [self addExtParam:@"checkToken" withValue:md5];
-}
+     }
+ }
 
 //请求中判断
 -(BOOL)isRequesting

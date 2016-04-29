@@ -14,6 +14,7 @@
 		CB5EFD621CD1DF1000DB168D /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5EFD5D1CD1DF1000DB168D /* CollectionViewController.xib */; };
 		CB5EFD631CD1DF1000DB168D /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5EFD5F1CD1DF1000DB168D /* CollectionViewCell.m */; };
 		CB5EFD641CD1DF1000DB168D /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5EFD601CD1DF1000DB168D /* CollectionViewCell.xib */; };
+		CB82B9971CD3014E002F75F0 /* LYCHomeService.m in Sources */ = {isa = PBXBuildFile; fileRef = CB82B9961CD3014E002F75F0 /* LYCHomeService.m */; };
 		CB8A90751CD2FBE2001FA8C8 /* zzBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8A90741CD2FBE2001FA8C8 /* zzBaseService.m */; };
 		CB8D792A1CD1EA330074CD52 /* car2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB8D79291CD1EA330074CD52 /* car2.jpg */; };
 		CB8D792C1CD1EAC40074CD52 /* car3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB8D792B1CD1EAC40074CD52 /* car3.jpg */; };
@@ -81,6 +82,8 @@
 		CB5EFD5F1CD1DF1000DB168D /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		CB5EFD601CD1DF1000DB168D /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		CB5EFD651CD1DF2500DB168D /* CollectionDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionDefine.h; sourceTree = "<group>"; };
+		CB82B9951CD3014E002F75F0 /* LYCHomeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCHomeService.h; sourceTree = "<group>"; };
+		CB82B9961CD3014E002F75F0 /* LYCHomeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCHomeService.m; sourceTree = "<group>"; };
 		CB8A90731CD2FBE2001FA8C8 /* zzBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zzBaseService.h; sourceTree = "<group>"; };
 		CB8A90741CD2FBE2001FA8C8 /* zzBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zzBaseService.m; sourceTree = "<group>"; };
 		CB8D79291CD1EA330074CD52 /* car2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car2.jpg; sourceTree = "<group>"; };
@@ -207,6 +210,8 @@
 			children = (
 				CB8A90731CD2FBE2001FA8C8 /* zzBaseService.h */,
 				CB8A90741CD2FBE2001FA8C8 /* zzBaseService.m */,
+				CB82B9951CD3014E002F75F0 /* LYCHomeService.h */,
+				CB82B9961CD3014E002F75F0 /* LYCHomeService.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -552,6 +557,7 @@
 				CBC6462B1CCF5B9400EA68D5 /* LYCMainViewController.m in Sources */,
 				CB5EFD5A1CD1DEEC00DB168D /* TWCollectionViewController.m in Sources */,
 				CB5EFD631CD1DF1000DB168D /* CollectionViewCell.m in Sources */,
+				CB82B9971CD3014E002F75F0 /* LYCHomeService.m in Sources */,
 				CBC646281CCF5B9400EA68D5 /* AppDelegate.m in Sources */,
 				CBB2C0C21CD1A8A100AE4C01 /* UIView+SHCZExt.m in Sources */,
 				CBB2C0E51CD1C68600AE4C01 /* twoVc.m in Sources */,

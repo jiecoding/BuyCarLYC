@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AFNetworking/AFNetworking.h>
+
+
 @protocol zzBaseServiceDelegate;
 
 @interface zzBaseService : NSObject
